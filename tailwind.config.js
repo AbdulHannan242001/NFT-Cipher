@@ -8,13 +8,48 @@ export default {
         roboto: ["Roboto", "monospace"],
       },
       colors: {
-        primary: "#2E2E2E", // Dark Grey (base color)
-        accent: "#00A3E0", // Bright Blue (for accents and highlights)
-        secondary: "#3B3B3B", // Lighter Grey (for backgrounds and less prominent text)
-        lightBlue: "#B3E5FC", // Light Blue (for backgrounds and secondary accents)
-        darkBlue: "#01579B", // Dark Blue (for buttons and important elements)
-        white: "#FFFFFF", // White (for text and clean areas)
-        grey: "#9E9E9E", // Neutral Grey (for borders and subtle elements)
+        primary: "#0a0118",      // Main background color (used in Section 1)
+        secondary: "#9b59b6",    // Buttons, links, highlights (used in Section 1)
+        accent: "#8e44ad",       // Secondary highlights, icons (used in Section 1)
+        background: "#1e1e2e",   // General background (used in Section 1)
+        foreground: "#2c2c3e",   // Card and modal backgrounds (used in Section 1)
+        textPrimary: "#e0e0e0",  // Primary text color (used in Section 1)
+        textSecondary: "#b3b3b3",// Secondary text color (used in Section 1)
+        border: "#44475a",       // Borders and dividers (used in Section 1)
+        hover: "#6c3483",        // Hover states (used in Section 1)
+
+        // New colors for Section 2
+        primary2: "#1a202c",      // Main background color
+        secondary2: "#4a5568",    // Buttons, links, highlights
+        accent2: "#2d3748",       // Secondary highlights, icons
+        background2: "#171923",   // General background
+        foreground2: "#2d3748",   // Card and modal backgrounds
+        textPrimary2: "#e2e8f0",  // Primary text color
+        textSecondary2: "#cbd5e0",// Secondary text color
+        border2: "#718096",       // Borders and dividers
+        hover2: "#4a5568",        // Hover states
+
+        // New colors for Section 3
+        primary3: "#f7fafc",      // Main background color
+        secondary3: "#cbd5e0",    // Buttons, links, highlights
+        accent3: "#a0aec0",       // Secondary highlights, icons
+        background3: "#edf2f7",   // General background
+        foreground3: "#e2e8f0",   // Card and modal backgrounds
+        textPrimary3: "#2d3748",  // Primary text color
+        textSecondary3: "#4a5568",// Secondary text color
+        border3: "#cbd5e0",       // Borders and dividers
+        hover3: "#a0aec0",        // Hover states
+
+        // New colors for Section 4
+        primary4: "#2d3748",      // Main background color
+        secondary4: "#718096",    // Buttons, links, highlights
+        accent4: "#4a5568",       // Secondary highlights, icons
+        background4: "#1a202c",   // General background
+        foreground4: "#2a4365",   // Card and modal backgrounds
+        textPrimary4: "#e2e8f0",  // Primary text color
+        textSecondary4: "#cbd5e0",// Secondary text color
+        border4: "#4a5568",       // Borders and dividers
+        hover4: "#718096",        // Hover states
       },
     },
   },

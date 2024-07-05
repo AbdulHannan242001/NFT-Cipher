@@ -44,7 +44,7 @@ const HorizontalScroll = () => {
         damping: 20,
         restDelta: 0.001,
     });
-    const x = useTransform(smoothScroll, [0, 1], ["1%", "-95%"]);
+    const x = useTransform(smoothScroll, [0, 1], ["50%", "-50%"]);
     return (
         <section ref={ref} className='relative h-[300vh]'>
             <div className='sticky top-0 flex h-screen items-center justify-center overflow-hidden'>

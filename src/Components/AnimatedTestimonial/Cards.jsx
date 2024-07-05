@@ -5,7 +5,7 @@ const Cards = ({ quote, author, role, image, altText }) => {
         <div className="mx-auto md:w-[25vw] w-[100vw] ">
             <div className=" md:px-4">
                 <div
-                    className="bg-primary md:p-6 rounded-lg shadow-lg text-white md:h-[300px] items-center justify-center flex flex-col"
+                    className="bg-accent2 md:p-4 rounded-lg shadow-lg text-white md:h-[300px] items-center justify-center flex flex-col"
                 >
                     <p className="text-sm md:text-lg italic mb-4">{quote}</p>
                     <div className="flex items-center">

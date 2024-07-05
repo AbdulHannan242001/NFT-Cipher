@@ -1,19 +1,13 @@
-// Section3.jsx
+// Section5.jsx
 import React from 'react';
 import { motion, useSpring, useTransform } from 'framer-motion';
 import LMS from '../../assets/LMS.png';
 import GlowingButton from '../GlowingButton/GlowingButton';
 
-const Section3 = ({ scrollYProgress }) => {
-    const smoothScroll = useSpring(scrollYProgress, {
-        stiffness: 100,
-        damping: 20,
-        restDelta: 0.001,
-    });
-    const opacity = useTransform(smoothScroll, [0, 1], [0, 1]);
+const Section5 = () => {
 
     return (
-        <motion.div style={{ opacity }} className='sticky w-full top-0 h-[120vh] bg-foreground4 text-2xl flex items-center text-textSecondary4 md:py-[20vh] overflow-hidden'>
+        <div className='sticky w-full top-0 h-[120vh] bg-foreground4 text-2xl flex items-center text-textSecondary4 md:py-[20vh] overflow-hidden'>
             <div className='w-10/12 mx-auto bg-background4 rounded-lg py-6 px-4 md:px-6 shadow-2xl shadow-secondary4 mt-auto'>
                 <div className='flex flex-col md:flex-row'>
                     <div className='md:w-6/12 md:p-4 flex flex-col items-center overflow-hidden'>
@@ -51,8 +45,8 @@ const Section3 = ({ scrollYProgress }) => {
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </div>
     );
 };
 
-export default Section3;
+export default Section5;

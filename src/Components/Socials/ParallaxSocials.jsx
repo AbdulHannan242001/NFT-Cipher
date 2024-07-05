@@ -31,7 +31,7 @@ const ParallaxSocials = () => {
             className='bg-primary w-full h-[60vh] md:h-screen overflow-hidden relative'>
             <motion.div
                 style={{ y: textY }}
-                className='w-10/12 md:w-6/12 mx-auto relative z-30 inset-0 bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm font-poppins text-center rounded-lg p-4 md:p-10 shadow-lg top-[25%]'>
+                className='w-10/12 md:w-6/12 mx-auto relative z-10 inset-0 bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm font-poppins text-center rounded-lg p-4 md:p-10 shadow-lg top-[25%]'>
                 <motion.h1
                     initial={{ opacity: 0.3, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ const ParallaxSocials = () => {
                 }}
             />
             <motion.div
-                className='absolute w-[50%] h-[30%] right-[80%] md:h-[20%] md:w-[25%] top-[20%] md:top-[50%] left-[4%] bottom-0 z-20'
+                className='absolute w-[50%] h-[30%] right-[80%] md:h-[20%] md:w-[25%] top-[20%] md:top-[50%] left-[4%] bottom-0 z-30'
                 style={{
                     backgroundImage: `url(${Cloud1})`,
                     backgroundSize: 'cover',
@@ -58,7 +58,7 @@ const ParallaxSocials = () => {
                 }}
             />
             <motion.div
-                className='absolute w-[50%] h-[20%] right-[-4%] md:right-[4%] md:h-[25%] md:w-[25%] top-[10%] md:top-[40%] md:left-[75%] bottom-0 z-20'
+                className='absolute w-[50%] h-[20%] right-[-4%] md:right-[4%] md:h-[25%] md:w-[25%] top-[10%] md:top-[40%] md:left-[75%] bottom-0 z-30'
                 style={{
                     backgroundImage: `url(${Cloud2})`,
                     backgroundSize: 'cover',
@@ -68,14 +68,14 @@ const ParallaxSocials = () => {
             />
             <motion.div
                 style={{ y: linksY }}
-                className='w-10/12 md:w-6/12 mx-auto relative z-30 inset-0 bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm font-poppins text-center rounded-lg p-4 md:p-10 shadow-lg top-[20%]'>
+                className='w-10/12 md:w-6/12 mx-auto relative z-10 inset-0 bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm font-poppins text-center rounded-lg p-4 md:p-10 shadow-lg top-[20%]'>
                 <div className='flex justify-around'>
                     <motion.a
                         href="https://www.facebook.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.1 }}
-                        className="text-white">
+                        className="text-accent3">
                         < FaFacebook className='text-6xl' />
                     </motion.a>
                     <motion.a
@@ -83,7 +83,7 @@ const ParallaxSocials = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.1 }}
-                        className="text-white">
+                        className="text-accent3">
                         < FaInstagram className='text-6xl' />
                     </motion.a>
                     <motion.a
@@ -91,7 +91,7 @@ const ParallaxSocials = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.1 }}
-                        className="text-white">
+                        className="text-accent3">
                         < FaGlobe className='text-6xl' />
                     </motion.a>
                 </div>
