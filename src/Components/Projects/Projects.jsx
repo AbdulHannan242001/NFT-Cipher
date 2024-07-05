@@ -20,7 +20,9 @@ const Projects = () => {
 
     return (
         <main>
-            <div className='bg-accent text-white font-extrabold text-5xl font-poppins p-4 text-center'>OUR PROJECTS</div>
+            <div className='bg-accent w-full p-2 md:py-4 flex justify-center sticky top-0 z-20'>
+                <h1 className='text-3xl md:text-5xl font-extrabold font-poppins text-white'>OUR PROJECTS</h1>
+            </div>
             <div ref={container} className='relative min-h-[250vh] bg-black'>
                 <Section1 scrollYProgress={scroll1.scrollYProgress} />
                 <Section2 scrollYProgress={scroll1.scrollYProgress} />

@@ -3,6 +3,7 @@ import ParallaxBanner from './Components/Parallax/Parallax'
 import Projects from './Components/Projects/Projects'
 import AnimatedTestimonial from './Components/AnimatedTestimonial/AnimatedTestimonial'
 import './App.css'
+import ParallaxSocials from './Components/Socials/ParallaxSocials'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       < ParallaxBanner />
       < Projects />
       < AnimatedTestimonial />
+      < ParallaxSocials />
     </>
   )
 }

@@ -52,7 +52,7 @@ const ParallaxBanner = () => {
                 }}
             />
             <motion.div
-                className='absolute w-full h-[30%] right-[80%] md:h-[20%] md:w-[25%] top-[50%] left-[4%] bottom-0 z-30'
+                className='absolute w-[50%] h-[30%] right-[80%] md:h-[20%] md:w-[25%] top-[50%] left-[4%] bottom-0 z-30'
                 style={{
                     backgroundImage: `url(${Cloud1})`,
                     backgroundSize: 'cover',
@@ -61,7 +61,7 @@ const ParallaxBanner = () => {
                 }}
             />
             <motion.div
-                className='absolute w-full h-[30%] right-[4%] md:h-[25%] md:w-[25%] top-[40%] left-[75%] bottom-0 z-30'
+                className='absolute w-[50%] h-[20%] right-[-4%] md:right-[4%] md:h-[25%] md:w-[25%] top-[40%] md:left-[75%] bottom-0 z-30'
                 style={{
                     backgroundImage: `url(${Cloud2})`,
                     backgroundSize: 'cover',
@@ -70,7 +70,7 @@ const ParallaxBanner = () => {
                 }}
             />
             <motion.div
-                className='absolute bottom-[-30%] top-0 right-0 left-0 z-20'
+                className='absolute bottom-[-100%] md:bottom-[-30%] top-0 right-0 left-0 z-20'
                 style={{
                     backgroundImage: `url(${Mount})`,
                     backgroundSize: 'contain',
