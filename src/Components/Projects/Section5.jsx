@@ -45,7 +45,7 @@ const Section5 = ({ scrollYProgress }) => {
               <ul className="list-disc list-inside text-sm md:text-base">
                 <li>
                   <span className="font-semibold">Orders Management:</span> Easy
-                  creation, management, and delivery-tracking of orders.
+                  creation, management, and delivery tracking of orders.
                 </li>
                 <li>
                   <span className="font-semibold">Notifying Tools:</span>{" "}
