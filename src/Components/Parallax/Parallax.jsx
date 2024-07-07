@@ -61,7 +61,7 @@ const ParallaxBanner = () => {
                 }}
             />
             <motion.div
-                className='absolute w-[50%] h-[20%] right-[-4%] md:right-[4%] md:h-[25%] md:w-[25%] top-[40%] md:left-[75%] bottom-0 z-30'
+                className='absolute w-[50%] h-[20%] right-[-4%] md:right-[4%] md:h-[20%] md:w-[30%] top-[40%] md:left-[75%] bottom-0 z-30'
                 style={{
                     backgroundImage: `url(${Cloud2})`,
                     backgroundSize: 'cover',

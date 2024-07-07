@@ -13,7 +13,7 @@ const Section3 = ({ scrollYProgress }) => {
     const opacity = useTransform(smoothScroll, [0, 1], [0, 1]);
 
     return (
-        <motion.div style={{ opacity }} className='sticky w-full top-0 h-[120vh] bg-foreground4 text-2xl flex items-center text-textSecondary4 md:py-[20vh] overflow-hidden'>
+        <motion.div style={{ opacity }} className='sticky w-full top-0 h-[100vh] bg-foreground4 text-2xl flex items-center text-textSecondary4 py-[10%] overflow-hidden'>
             <div className='w-10/12 mx-auto bg-background4 rounded-lg py-6 px-4 md:px-6 shadow-2xl shadow-secondary4 mt-auto'>
                 <div className='flex flex-col md:flex-row'>
                     <div className='md:w-6/12 md:p-4 flex flex-col items-center overflow-hidden'>

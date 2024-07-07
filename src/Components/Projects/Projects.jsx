@@ -24,23 +24,22 @@ const Projects = () => {
         offset: ['start center', 'center end'],
     });
 
-    const borderRadius = useTransform(scroll3.scrollYProgress, [0, 1], ['0%', '100%']);
 
     return (
         <main>
             <div className='bg-primary w-full p-1 md:py-2 flex justify-center sticky top-0 z-20'>
                 <h1 className='text-xl md:text-3xl font-extrabold font-poppins text-white'>OUR PROJECTS</h1>
             </div>
-            <div ref={container} className='relative min-h-[250vh] bg-black'>
+            <div ref={container} className='relative mix-h-[220vh] bg-black'>
                 <Section1 scrollYProgress={scroll1.scrollYProgress} />
                 <Section2 scrollYProgress={scroll1.scrollYProgress} />
             </div>
-            <div ref={container1} className='min-h-[250vh] bg-black relative'>
+            <div ref={container1} className='min-h-[220vh] bg-black relative'>
                 <Section3 scrollYProgress={scroll2.scrollYProgress} />
                 <Section4 scrollYProgress={scroll2.scrollYProgress} />
             </div>
-            <motion.div ref={container2} style={{ borderRadius }} className='min-h-[250vh] bg-black relative'>
-                <Section5 />
+            <motion.div ref={container2} className='min-h-[120vh] bg-black relative items-center justify-center'>
+                <Section5 scrollYProgress={scroll3.scrollYProgress}/>
             </motion.div>
         </main>
     );
