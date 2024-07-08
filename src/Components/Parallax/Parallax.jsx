@@ -4,6 +4,7 @@ import Mount from '../../assets/Mount.png';
 import Stars from '../../assets/Stars1.jpg';
 import Cloud1 from '../../assets/Cloud1.png';
 import Cloud2 from '../../assets/Cloud2.png';
+import { FaArrowAltCircleDown } from "react-icons/fa";
 
 const ParallaxBanner = () => {
     const ref = useRef(null);
@@ -34,12 +35,12 @@ const ParallaxBanner = () => {
                     initial={{ opacity: 0.3, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.5, delay: 0.5, ease: 'easeInOut' }}
-                    className='text-4xl md:text-7xl font-bold text-white'>NFT CIPHER</motion.h1>
+                    className='text-4xl md:text-7xl font-bold text-white'>AHSAN NAEEM</motion.h1>
                 <motion.p
                     initial={{ opacity: 0.3, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.0, delay: 0.4, ease: 'easeInOut' }}
-                    className='text-lg md:text-3xl font-semibold text-white inset-0 relative z-10 py-2 md:py-4'>TO MY PORTFOLIO</motion.p>
+                    className='text-lg md:text-3xl font-semibold text-white inset-0 relative z-10 py-2 md:py-4 flex justify-center'> < FaArrowAltCircleDown className="self-center mx-2 md:mx-4"/> TO MY PORTFOLIO</motion.p>
             </motion.div>
 
             <motion.div

@@ -93,7 +93,7 @@ const Section5 = ({ scrollYProgress }) => {
                 }
               >
                 <a
-                  href="https://lms.emaan.edu.pk"
+                  href="https://app.printlab.stepwaysoftwares.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

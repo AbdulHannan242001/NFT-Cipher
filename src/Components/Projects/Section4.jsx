@@ -10,7 +10,7 @@ const Section4 = () => {
     const isInView = useInView(ref, { once: false });
 
     return (
-        <div ref={ref} className='absolute w-full top-0 h-[100vh] bg-primary text-2xl flex items-center text-textPrimary py-[20%] overflow-hidden'>
+        <div ref={ref} className='absolute w-full top-0 h-[110vh] bg-primary text-2xl flex items-center text-textPrimary py-[20%] overflow-hidden'>
             <motion.div
                 initial={{ opacity: 0.3, y: -100 }}
                 animate={{ opacity: isInView ? 1 : 0.3, y: isInView ? 0 : -100 }}

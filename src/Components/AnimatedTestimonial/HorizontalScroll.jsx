@@ -1,42 +1,47 @@
-import React from 'react'
+import React from 'react';
 import Cards from './Cards';
 import { useScroll, useTransform, motion, useSpring } from 'framer-motion';
+import AlexJohnson from '../../assets/AlexJohnson.png';
+import EmilyDavis from '../../assets/EmilyDavis.png';
+import MichaelBrown from '../../assets/MichealBrown.png';
+import SarahWilson from '../../assets/SarahWilson.png';
 
 const HorizontalScroll = () => {
     const testimonials = [
         {
             quote:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            author: "John Doe",
-            role: "CEO, Example Company",
-            img: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            altText: "John Doe"
+                "This service has completely transformed the way we operate. The team is professional and always goes the extra mile.",
+            author: "Alex Johnson",
+            role: "Marketing Expert",
+            img: AlexJohnson,
+            altText: "Alex Johnson"
         },
         {
             quote:
-                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            author: "Jane Smith",
-            role: "Product Manager, Another Company",
-            img: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            altText: "John Doe"
+                "Their innovative solutions have streamlined our processes, saving us both time and money. Highly recommend!",
+            author: "Emily Davis",
+            role: "Product Manager",
+            img: EmilyDavis,
+            altText: "Emily Davis"
         },
         {
             quote:
-                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            author: "Jane Smith",
-            role: "Product Manager, Another Company",
-            img: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            altText: "John Doe"
+                "Working with this company has been a game-changer for us. Their expertise and dedication are unmatched.",
+            author: "Michael Brown",
+            role: "CTO",
+            img: MichaelBrown,
+            altText: "Michael Brown"
         },
         {
             quote:
-                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            author: "Jane Smith",
-            role: "Product Manager, Another Company",
-            img: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            altText: "John Doe"
+                "The results we’ve seen from their work have exceeded our expectations. We couldn’t be happier with the partnership.",
+            author: "Sarah Wilson",
+            role: "Marketing Director",
+            img: SarahWilson,
+            altText: "Sarah Wilson"
         },
     ];
+
     const ref = React.useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
     const smoothScroll = useSpring(scrollYProgress, {
@@ -45,6 +50,7 @@ const HorizontalScroll = () => {
         restDelta: 0.001,
     });
     const x = useTransform(smoothScroll, [0, 1], ["50%", "-50%"]);
+
     return (
         <section ref={ref} className='relative h-[300vh]'>
             <div className='sticky top-0 flex h-screen items-center justify-center overflow-hidden'>
@@ -55,7 +61,7 @@ const HorizontalScroll = () => {
                 </motion.div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default HorizontalScroll
+export default HorizontalScroll;

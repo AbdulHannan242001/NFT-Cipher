@@ -43,7 +43,7 @@ const Section1 = ({ scrollYProgress }) => {
                             </div>
                         </div>
                         <div className='flex justify-start space-x-4'>
-                            <GlowingButton className={'md:text-base text-xs bg-transparent text-secondary border-secondary'} link={'https://go-step.de/'}>
+                            <GlowingButton className={'md:text-base text-xs bg-transparent text-textPrimary border-secondary'}>
                                 <a href='https://go-step.de/' target='_blank' rel='noopener noreferrer'>View Project</a>
                             </GlowingButton>
                         </div>
