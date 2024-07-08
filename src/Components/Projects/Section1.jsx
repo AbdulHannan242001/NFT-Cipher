@@ -14,7 +14,7 @@ const Section1 = ({ scrollYProgress }) => {
     const rotate = useTransform(smoothScroll, [0, 1], [0, -10]);
 
     return (
-        <motion.div style={{ scale, rotate }} className='sticky top-0 h-[100vh] bg-primary text-2xl flex justify-center text-textPrimary py-[10%] overflow-hidden'>
+        <motion.div style={{ scale, rotate }} className='sticky top-0 h-auto bg-primary text-2xl flex justify-center text-textPrimary pb-[20%] overflow-hidden'>
             <div className='w-10/12 mx-auto bg-primary rounded-lg py-6 px-4 md:px-6 shadow-2xl shadow-accent '>
                 <div className='flex flex-col md:flex-row'>
                     <div className='md:w-6/12 md:p-4 flex flex-col items-center overflow-hidden'>

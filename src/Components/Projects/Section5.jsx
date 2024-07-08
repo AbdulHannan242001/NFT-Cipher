@@ -17,7 +17,7 @@ const Section5 = ({ scrollYProgress }) => {
   return (
     <motion.div
       style={{ borderRadius, width }}
-      className="mx-auto sticky w-full top-0 h-[100vh] bg-foreground text-2xl flex items-center justify-center text-textSecondary2 py-[10%] overflow-hidden"
+      className="mx-auto sticky w-full top-0 h-auto bg-foreground text-2xl flex items-center justify-center text-textSecondary2 py-[20%] overflow-hidden"
     >
       <div className="w-10/12 mx-auto bg-background rounded-lg py-6 px-4 md:px-6 shadow-2xl shadow-secondary mt-auto">
         <div className="flex flex-col md:flex-row">
